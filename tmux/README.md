@@ -5,7 +5,7 @@
 Install **tmux** on Linux.
 
 
-## Importance of
+## Importance
 
 tmux is a very neccessary tool if you want to keep running some big tasks
 remotely in background even if your session is ended.
