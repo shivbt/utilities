@@ -61,7 +61,7 @@ permission for security reasons on the host machine.
 # Create desired directory.
 sudo mkdir /var/shiv_nfs_dir_host -p
 
-# Change its persmission to `nobody:nogroup`.
+# Change its persmission to `nobody:nogroup`. This is **Optional**.
 sudo chown nobody:nogroup /var/shiv_nfs_dir_host
 ```
 
