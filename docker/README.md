@@ -4,9 +4,7 @@ If you're using Docker and want to free up disk space on your machine, the
 following commands will help you clean up unused containers, volumes, images
 , and more.
 
----
-
-## 🧱 Conntainers
+## 🧱 Containers
 
 To remove unused (non-running) containers and reclaim space:
 
@@ -21,8 +19,6 @@ docker rm $(docker ps --filter status=exited -q)
 docker container ls --all
 ```
 
----
-
 ## 📦 Volumes
 
 Docker volumes can take up a significant amount of space over time. Here's
@@ -35,8 +31,6 @@ docker volume ls
 # Remove all unused (dangling) volumes
 docker volume prune
 ```
-
----
 
 ## 🖼️ Images
 
@@ -52,7 +46,6 @@ docker rmi -f $(docker images -aq)
 
 > ⚠️ Be cautious: This will remove **all images**, including ones currently in use.
 
----
 
 ## 🛠️ `docker system` – All-in-One Cleanup
 
